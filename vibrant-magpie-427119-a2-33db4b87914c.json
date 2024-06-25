@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "vibrant-magpie-427119-a2",
+  "private_key_id": "33db4b87914cffe29095c2be597f2533df88e507",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCJREFwu25PCGFz\n+Gh3liGdu7gmBviYs2sAHZcJmZnkW8E/2H2QOh80iccHgrDszQaWqQr+ccaqwYhs\numV14YGNbCz0xZcwMdLwfDRdJ7SqZ1otiVmtU+1P+lbdq/154W5TdBSmSP5P81Xn\n8we/rPaydA7b/sB3N/9ep22pZylO0qEty123uhJnt2UaxlNzWdFEeOUBQ/1qApor\npJRdrs15sqV0I/0K4wC6lTfSWo8EMpRTKiE66ht+cLIdoj09m1LfGaWA5hEph0tp\neymUChQc9gYRvW25jGhjipGVMaAJsKSlzpR14zejZolxxKVPNQnxXSRWUJHCSWCI\nL1ZL8tWZAgMBAAECggEAAlWVUU/2q8RmN90pFaOJdc+77XWf46TldG6MY37ntZDz\n49yQIhRC9JdFObT4wkYoTwaX58TSjpPU+Jhg4lTP6bJFv3HexNSMFEfgchcbROyW\nBYE487AiMIJ+2K00lc6GHEg0k7FZFc37D4M8Bf/wgA9mM0qNRlm+74KkZEWbV7pJ\n32aAJWeOLYBIdrj708UIhkahIL4vlYoveR+bS6wwRch+5CfcqdMNlm17tWzdfUmL\n0FFh2tWSkuwhorSrdX60pLPvq8u6FpZCew3qXYttixyfqCxz4x0em/jiYce0Bg3v\n2+3aAfTyWrSdj9St/kE8tYo0bnaYGG47H40zyfRhuwKBgQDBc+Br+37dzf2BEiSk\nvOQnxMfqf4ZRg3ciYKd1OzA6xZpq/jdo/vmt2Y2zT4KtFaOJqqvGM0V83J2FFDqI\nxuwZw2Ts0m5YcOxwpzYGQ4l/3kE5snTdXH641/V40gFfsEoyky8kH46LE74PY0bG\n0U06Ebm0jyrrajHMcB9yHufUawKBgQC1pdkhw6Z0ydtvWFluOU4zeiSnf/IykUOv\nFFwBjeHuPsV/GyJ8AAg9D98sjqflHNXEDozJdy3Fc9Z+RdxaumhxoqLVdJtaA0rJ\n6y4vujYi4RC7MPlNvEMniseqAnN7yD08AmFvO5TNt79io72msJ2+Ahz0Rp/WHaxp\nThTd0rtfCwKBgDO1s7Fpglnrq+2KWf0m+J2gvgdymwbC619nEpwFfDjZhRNAbLNG\nJJtR4cyiXj3B4Pr1ggDyx4o+tmRSKetRsN6aGiorfY9qb+kU6R33g5OIZ0ry5sYc\n6Uqjf1wSVoeracnnCdzQCpwmZNFcKhkO7WOuRUN8WW6f7jvFZMJufG2NAoGAP3Gf\ntwVI3D2soOUwxyjIwX4F02MCytql0z6/K+PMZ5QREuX9U2YHepxSjJN+3K0HlKSo\nU62GlRJydkQcRKwa0qXFTdyebf/8XS4BQbY+Nkx5tYfTa20331W/iwe0IiW8DXuf\nYGRlAr0M4XzjPpctYTIHvuHz7asLjvQwoZF61CUCgYB2jnLzO7FB/XpwzLIUTjif\nBszfTEmOQDhkEiQzX7r3fqCYZYobbQoqT2MbJefaD9c0lTMC53zNtdCVd2GQHJwu\nhhhwpchIOMBcNDy7Itfge/Zf2qHIgY3t/l1V8n3mQwKqAlFcz5QWs/OSEGGpq4kP\nV9QM6tU+xvrkS0eBBY+BeQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "elearningdashboard@vibrant-magpie-427119-a2.iam.gserviceaccount.com",
+  "client_id": "115640235439102405692",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/elearningdashboard%40vibrant-magpie-427119-a2.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

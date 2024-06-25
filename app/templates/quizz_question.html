@@ -1,0 +1,96 @@
+{% extends "base.html" %} {% block content %}
+<link rel="stylesheet" href="{{ url_for('static', filename='quiz.css') }}" />
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+      <div class="question-card">
+        <div class="card-body">
+          <div class="progress mb-3">
+            <div
+              class="progress-bar"
+              role="progressbar"
+              style="width: {{ progress }}%;"
+              aria-valuenow="{{ progress }}"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            ></div>
+          </div>
+          <h5 class="card-title question-text">
+            Question {{ current_question_number }} sur 20
+            <span id="timer">{{ timer }}</span>
+          </h5>
+          <form
+            id="quiz-form"
+            method="POST"
+            action="{{ url_for('quizz_question', question_id=question_id) }}"
+          >
+            <p class="question-text">{{ question['question'] }}</p>
+            <div class="answer-options">
+              {% for choice in question['choices'] %}
+              <label class="answer-option">
+                <input class="form-check-input" type="radio" name="answer"
+                id="answer{{ loop.index }}" value="{{ choice }}" {% if choice ==
+                selected_choice %}checked{% endif %}>
+                <span class="form-check-label">{{ choice }}</span>
+              </label>
+              {% endfor %}
+            </div>
+            <div class="navigation-buttons">
+              <input
+                type="hidden"
+                name="question_id"
+                value="{{ question_id }}"
+              />
+              {% if question_id > 0 %}
+              <button type="submit" name="prev" class="btn btn-secondary">
+                Précédent
+              </button>
+              {% endif %}
+              <button type="submit" name="next" class="btn btn-primary">
+                Suivant
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  function startTimer(duration, display) {
+    var timer = duration, minutes, seconds;
+    var interval = setInterval(function () {
+      minutes = parseInt(timer / 60, 10);
+      seconds = parseInt(timer % 60, 10);
+
+      minutes = minutes < 10 ? "0" + minutes : minutes;
+      seconds = seconds < 10 ? "0" + seconds : seconds;
+
+      display.textContent = "Temps restant: " + minutes + ":" + seconds;
+
+      if (--timer < 0) {
+        clearInterval(interval);
+        // Soumettre le formulaire lorsque le temps est écoulé
+        window.location.href = "{{ url_for('quizz_result') }}";
+      }
+    }, 1000);
+  }
+
+  function formatTime(seconds) {
+    var minutes = parseInt(seconds / 60, 10);
+    var seconds = parseInt(seconds % 60, 10);
+
+    minutes = minutes < 10 ? "0" + minutes : minutes;
+    seconds = seconds < 10 ? "0" + seconds : seconds;
+
+    return "Temps restant: " + minutes + ":" + seconds;
+  }
+
+  window.onload = function () {
+    var timeLeft = {{ timer|int }};
+    var display = document.querySelector("#timer");
+    display.textContent = formatTime(timeLeft);  // Format correct dès le premier affichage
+    startTimer(timeLeft, display);
+  };
+</script>
+{% endblock %}

@@ -1,0 +1,202 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Ajouté pour s'assurer que le body prend toute la hauteur */
+    display: flex;
+    flex-direction: column;
+}
+
+.chatbot-container {
+    display: flex;
+    flex-direction: column;
+    height: 83vh;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 70px;
+    position: relative;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: #333;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.course-selection select {
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    background-color: #fff;
+    transition: border 0.3s;
+}
+
+.course-selection select:hover {
+    border-color: #007bff;
+}
+
+.header input[type="text"] {
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    transition: border 0.3s;
+}
+
+.header input[type="text"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.content {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    padding: 20px;
+    overflow: hidden; /* Ajouté pour permettre le défilement */
+}
+
+.chat-area {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    background-color: #ffffff;
+    height: 100%;
+    margin-right: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.conversation {
+    flex: 1;
+    overflow-y: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 60px); /* Hauteur ajustée pour inclure le padding */
+}
+
+.message-input-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-top: 1px solid #ced4da;
+    background-color: #fff;
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.message-input {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.message-input input {
+    flex: 1;
+    padding: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 5px 0 0 5px;
+    font-size: 1em;
+    margin-right: -5px; /* Ensures the input and button touch */
+    transition: border 0.3s;
+}
+
+.message-input input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.message-input button {
+    padding: 15px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+.message-input button:hover {
+    background-color: #0056b3;
+}
+
+.conversation-list {
+    flex: 1;
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+}
+
+.conversation-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.conversation-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ced4da;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.conversation-list li:hover {
+    background-color: #f1f1f1;
+}
+
+.conversation-list li:last-child {
+    border-bottom: none;
+}
+
+.user-message, .bot-message {
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    max-width: 60%;
+    word-wrap: break-word;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.user-message {
+    align-self: flex-end;
+    background-color: #d4edda;
+    border: 1px solid #b4dbb4;
+    color: #155724;
+    animation: fadeIn 0.5s;
+}
+
+.bot-message {
+    align-self: flex-start;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+    animation: fadeIn 0.5s;
+}
+
+.user-message p, .bot-message p {
+    margin: 0;
+    font-size: 1em;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

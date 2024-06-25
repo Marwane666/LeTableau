@@ -1,0 +1,302 @@
+[
+    {
+      "id": 1,
+      "question": "What is the capital of France?",
+      "choices": ["Paris", "London", "Rome", "Berlin"],
+      "correct_answer": "Paris"
+    },
+    {
+      "id": 2,
+      "question": "What is the largest planet in our solar system?",
+      "choices": ["Earth", "Mars", "Jupiter", "Saturn"],
+      "correct_answer": "Jupiter"
+    },
+    {
+      "id": 3,
+      "question": "Who wrote 'To Kill a Mockingbird'?",
+      "choices": ["Harper Lee", "Mark Twain", "Ernest Hemingway", "Jane Austen"],
+      "correct_answer": "Harper Lee"
+    },
+    {
+      "id": 4,
+      "question": "What is the square root of 64?",
+      "choices": ["6", "7", "8", "9"],
+      "correct_answer": "8"
+    },
+    {
+      "id": 5,
+      "question": "What is the chemical symbol for water?",
+      "choices": ["H2O", "O2", "CO2", "NaCl"],
+      "correct_answer": "H2O"
+    },
+    {
+      "id": 6,
+      "question": "What is the fastest land animal?",
+      "choices": ["Cheetah", "Lion", "Tiger", "Leopard"],
+      "correct_answer": "Cheetah"
+    },
+    {
+      "id": 7,
+      "question": "Who painted the Mona Lisa?",
+      "choices": ["Leonardo da Vinci", "Vincent van Gogh", "Pablo Picasso", "Claude Monet"],
+      "correct_answer": "Leonardo da Vinci"
+    },
+    {
+      "id": 8,
+      "question": "What is the smallest prime number?",
+      "choices": ["1", "2", "3", "5"],
+      "correct_answer": "2"
+    },
+    {
+      "id": 9,
+      "question": "What is the main ingredient in guacamole?",
+      "choices": ["Tomato", "Avocado", "Onion", "Pepper"],
+      "correct_answer": "Avocado"
+    },
+    {
+      "id": 10,
+      "question": "What is the largest mammal?",
+      "choices": ["Elephant", "Blue Whale", "Giraffe", "Hippopotamus"],
+      "correct_answer": "Blue Whale"
+    },
+    {
+      "id": 11,
+      "question": "Who is the author of the Harry Potter series?",
+      "choices": ["J.K. Rowling", "J.R.R. Tolkien", "George R.R. Martin", "C.S. Lewis"],
+      "correct_answer": "J.K. Rowling"
+    },
+    {
+      "id": 12,
+      "question": "What is the capital of Japan?",
+      "choices": ["Beijing", "Seoul", "Tokyo", "Bangkok"],
+      "correct_answer": "Tokyo"
+    },
+    {
+      "id": 13,
+      "question": "What is the process by which plants make their food?",
+      "choices": ["Respiration", "Digestion", "Photosynthesis", "Transpiration"],
+      "correct_answer": "Photosynthesis"
+    },
+    {
+      "id": 14,
+      "question": "Who was the first president of the United States?",
+      "choices": ["George Washington", "Thomas Jefferson", "Abraham Lincoln", "John Adams"],
+      "correct_answer": "George Washington"
+    },
+    {
+      "id": 15,
+      "question": "What is the hardest natural substance on Earth?",
+      "choices": ["Gold", "Iron", "Diamond", "Platinum"],
+      "correct_answer": "Diamond"
+    },
+    {
+      "id": 16,
+      "question": "Which planet is known as the Red Planet?",
+      "choices": ["Earth", "Mars", "Jupiter", "Venus"],
+      "correct_answer": "Mars"
+    },
+    {
+      "id": 17,
+      "question": "What is the main language spoken in Brazil?",
+      "choices": ["Spanish", "Portuguese", "French", "English"],
+      "correct_answer": "Portuguese"
+    },
+    {
+      "id": 18,
+      "question": "Who discovered penicillin?",
+      "choices": ["Marie Curie", "Albert Einstein", "Alexander Fleming", "Isaac Newton"],
+      "correct_answer": "Alexander Fleming"
+    },
+    {
+      "id": 19,
+      "question": "What is the capital of Canada?",
+      "choices": ["Toronto", "Vancouver", "Ottawa", "Montreal"],
+      "correct_answer": "Ottawa"
+    },
+    {
+      "id": 20,
+      "question": "What is the largest ocean on Earth?",
+      "choices": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
+      "correct_answer": "Pacific Ocean"
+    },
+    {
+      "id": 21,
+      "question": "What is the chemical symbol for gold?",
+      "choices": ["Ag", "Au", "Pb", "Fe"],
+      "correct_answer": "Au"
+    },
+    {
+      "id": 22,
+      "question": "What is the longest river in the world?",
+      "choices": ["Amazon River", "Nile River", "Yangtze River", "Mississippi River"],
+      "correct_answer": "Nile River"
+    },
+    {
+      "id": 23,
+      "question": "Who was the first man to walk on the moon?",
+      "choices": ["Buzz Aldrin", "Yuri Gagarin", "Neil Armstrong", "Michael Collins"],
+      "correct_answer": "Neil Armstrong"
+    },
+    {
+      "id": 24,
+      "question": "What is the capital of Italy?",
+      "choices": ["Venice", "Rome", "Milan", "Florence"],
+      "correct_answer": "Rome"
+    },
+    {
+      "id": 25,
+      "question": "What is the smallest country in the world?",
+      "choices": ["Monaco", "Vatican City", "San Marino", "Liechtenstein"],
+      "correct_answer": "Vatican City"
+    },
+    {
+      "id": 26,
+      "question": "What is the most spoken language in the world?",
+      "choices": ["Spanish", "English", "Mandarin", "Hindi"],
+      "correct_answer": "Mandarin"
+    },
+    {
+      "id": 27,
+      "question": "Who wrote 'Romeo and Juliet'?",
+      "choices": ["William Shakespeare", "Charles Dickens", "Mark Twain", "Homer"],
+      "correct_answer": "William Shakespeare"
+    },
+    {
+      "id": 28,
+      "question": "What is the capital of Australia?",
+      "choices": ["Sydney", "Melbourne", "Brisbane", "Canberra"],
+      "correct_answer": "Canberra"
+    },
+    {
+      "id": 29,
+      "question": "What is the chemical formula for table salt?",
+      "choices": ["NaCl", "KCl", "CaCl2", "MgCl2"],
+      "correct_answer": "NaCl"
+    },
+    {
+      "id": 30,
+      "question": "Who is known as the father of modern physics?",
+      "choices": ["Isaac Newton", "Albert Einstein", "Galileo Galilei", "Nikola Tesla"],
+      "correct_answer": "Albert Einstein"
+    },
+    {
+      "id": 31,
+      "question": "What is the capital of Germany?",
+      "choices": ["Berlin", "Munich", "Frankfurt", "Hamburg"],
+      "correct_answer": "Berlin"
+    },
+    {
+      "id": 32,
+      "question": "What is the main ingredient in sushi?",
+      "choices": ["Fish", "Rice", "Seaweed", "Soy Sauce"],
+      "correct_answer": "Rice"
+    },
+    {
+      "id": 33,
+      "question": "Who painted the Sistine Chapel ceiling?",
+      "choices": ["Leonardo da Vinci", "Michelangelo", "Raphael", "Donatello"],
+      "correct_answer": "Michelangelo"
+    },
+    {
+      "id": 34,
+      "question": "What is the chemical symbol for oxygen?",
+      "choices": ["O", "O2", "Ox", "Oy"],
+      "correct_answer": "O"
+    },
+    {
+      "id": 35,
+      "question": "Who wrote 'The Odyssey'?",
+      "choices": ["Homer", "Virgil", "Sophocles", "Plato"],
+      "correct_answer": "Homer"
+    },
+    {
+      "id": 36,
+      "question": "What is the currency of Japan?",
+      "choices": ["Yen", "Won", "Yuan", "Dollar"],
+      "correct_answer": "Yen"
+    },
+    {
+      "id": 37,
+      "question": "What is the capital of Spain?",
+      "choices": ["Barcelona", "Madrid", "Seville", "Valencia"],
+      "correct_answer": "Madrid"
+    },
+    {
+      "id": 38,
+      "question": "What is the hardest rock?",
+      "choices": ["Granite", "Marble", "Diamond", "Quartz"],
+      "correct_answer": "Diamond"
+    },
+    {
+      "id": 39,
+      "question": "What is the largest desert in the world?",
+      "choices": ["Sahara", "Gobi", "Arctic", "Antarctic"],
+      "correct_answer": "Antarctic"
+    },
+    {
+      "id": 40,
+      "question": "Who discovered America?",
+      "choices": ["Christopher Columbus", "Leif Erikson", "Vasco da Gama", "Ferdinand Magellan"],
+      "correct_answer": "Christopher Columbus"
+    },
+    {
+      "id": 41,
+      "question": "What is the capital of Russia?",
+      "choices": ["Moscow", "St. Petersburg", "Kiev", "Sochi"],
+      "correct_answer": "Moscow"
+    },
+    {
+      "id": 42,
+      "question": "Who wrote 'The Great Gatsby'?",
+      "choices": ["F. Scott Fitzgerald", "Ernest Hemingway", "John Steinbeck", "Mark Twain"],
+      "correct_answer": "F. Scott Fitzgerald"
+    },
+    {
+      "id": 43,
+      "question": "What is the chemical symbol for iron?",
+      "choices": ["Ir", "In", "Fe", "I"],
+      "correct_answer": "Fe"
+    },
+    {
+      "id": 44,
+      "question": "What is the capital of India?",
+      "choices": ["Mumbai", "Delhi", "New Delhi", "Kolkata"],
+      "correct_answer": "New Delhi"
+    },
+    {
+      "id": 45,
+      "question": "Who is known as the father of computer science?",
+      "choices": ["Alan Turing", "Charles Babbage", "John von Neumann", "Bill Gates"],
+      "correct_answer": "Alan Turing"
+    },
+    {
+      "id": 46,
+      "question": "What is the tallest mountain in the world?",
+      "choices": ["K2", "Kangchenjunga", "Mount Everest", "Lhotse"],
+      "correct_answer": "Mount Everest"
+    },
+    {
+      "id": 47,
+      "question": "What is the capital of South Korea?",
+      "choices": ["Seoul", "Pyongyang", "Busan", "Incheon"],
+      "correct_answer": "Seoul"
+    },
+    {
+      "id": 48,
+      "question": "Who wrote 'Pride and Prejudice'?",
+      "choices": ["Jane Austen", "Charlotte Brontë", "Emily Brontë", "Mary Shelley"],
+      "correct_answer": "Jane Austen"
+    },
+    {
+      "id": 49,
+      "question": "What is the chemical symbol for sodium?",
+      "choices": ["S", "Na", "So", "Sn"],
+      "correct_answer": "Na"
+    },
+    {
+      "id": 50,
+      "question": "What is the capital of Egypt?",
+      "choices": ["Cairo", "Alexandria", "Giza", "Luxor"],
+      "correct_answer": "Cairo"
+    }
+  ]

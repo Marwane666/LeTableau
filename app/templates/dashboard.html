@@ -1,0 +1,126 @@
+{% extends "base.html" %} {% block title %}Dashboard{% endblock %} {% block
+content %}
+<div class="dashboard-content">
+  <div class="left-column">
+    <div class="section learning-progress">
+      <div class="header">
+        <h2>Progression</h2>
+        <div class="dropdown">
+          <button class="dropdown-btn">Trier par mois</button>
+          <div class="dropdown-content">
+            <a href="#">Ce mois</a>
+            <a href="#">le mois dernier</a>
+          </div>
+        </div>
+      </div>
+      <div class="chart">
+        <canvas id="learningProgressChart"></canvas>
+      </div>
+    </div>
+    <div class="section assignments">
+      <div class="header">
+        <h2>Travail à réaliser</h2>
+        <a href="#">Voir tout</a>
+      </div>
+      <div class="assignment">
+        <img
+          src="{{ url_for('static', filename='path/to/assignment1.png') }}"
+          alt="Assignment"
+        />
+        <div>
+          <p class="assignment-title">Quantique S5</p>
+          <p class="assignment-subtitle">Hier, 10:30 AM</p>
+          <p class="assignment-status">Ce travail a été soumis</p>
+        </div>
+      </div>
+      <div class="assignment">
+        <img
+          src="{{ url_for('static', filename='path/to/assignment2.png') }}"
+          alt="Assignment"
+        />
+        <div>
+          <p class="assignment-title">Quantique S6</p>
+          <p class="assignment-subtitle">Demain, 10:00 AM</p>
+          <p class="assignment-status">En cours de réalisation</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="right-column">
+    <div class="section notifications">
+      <div class="header">
+        <h2>Mes cours</h2>
+        <a href="#"></a>
+      </div>
+      <ul>
+        <li>
+          <img
+            src="{{ url_for('static', filename='path/to/icon1.png') }}"
+            alt="Notification"
+          />
+          <div>
+            <p class="notification-title">Quantique s5</p>
+            <p class="notification-subtitle">5 Assignments & 2 Lessons</p>
+          </div>
+          <button>...</button>
+        </li>
+        <li>
+          <img
+            src="{{ url_for('static', filename='path/to/icon2.png') }}"
+            alt="Notification"
+          />
+          <div>
+            <p class="notification-title">Optimisation</p>
+            <p class="notification-subtitle">5 Assignments & 2 Lessons</p>
+          </div>
+          <button>...</button>
+        </li>
+        <li>
+          <img
+            src="{{ url_for('static', filename='path/to/icon3.png') }}"
+            alt="Notification"
+          />
+          <div>
+            <p class="notification-title">Calcul de structure</p>
+            <p class="notification-subtitle">5 Assignments & 2 Lessons</p>
+          </div>
+          <button>...</button>
+        </li>
+        <li>
+          <img
+            src="{{ url_for('static', filename='path/to/icon4.png') }}"
+            alt="Notification"
+          />
+          <div>
+            <p class="notification-title">Quantique s6</p>
+            <p class="notification-subtitle">5 Assignments & 2 Lessons</p>
+          </div>
+          <button>...</button>
+        </li>
+        <li>
+          <img
+            src="{{ url_for('static', filename='path/to/icon5.png') }}"
+            alt="Notification"
+          />
+          <div>
+            <p class="notification-title">Statistique</p>
+            <p class="notification-subtitle">5 Assignments & 2 Lessons</p>
+          </div>
+          <button>...</button>
+        </li>
+        <li>
+          <img
+            src="{{ url_for('static', filename='path/to/icon6.png') }}"
+            alt="Notification"
+          />
+          <div>
+            <p class="notification-title">Probability & Topology</p>
+            <p class="notification-subtitle">5 Assignments & 2 Lessons</p>
+          </div>
+          <button>...</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+{% endblock %}

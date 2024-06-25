@@ -1,0 +1,362 @@
+[
+    {
+        "id": 1,
+        "question": "Quelle est la signification de la dualité onde-corpuscule?",
+        "choices": [
+            "Les photons ne se comportent que comme des ondes",
+            "Les photons peuvent changer de couleur",
+            "Les photons peuvent se comporter à la fois comme des particules et des ondes",
+            "Les photons peuvent être divisés en deux"
+        ],
+        "correct_answer": "Les photons peuvent se comporter à la fois comme des particules et des ondes",
+        "difficulty_level": "1"
+    },
+    {
+        "id": 2,
+        "question": "Quelle découverte a été réalisée par Hertz et Hallwachs en 1887?",
+        "choices": [
+            "Le spectre atomique",
+            "L'expérience de diffraction",
+            "L'effet Compton",
+            "L'effet photoélectrique"
+        ],
+        "correct_answer": "L'effet photoélectrique",
+        "difficulty_level": "1"
+    },
+    {
+        "id": 3,
+        "question": "Quelle constante est essentielle pour expliquer l'effet photoélectrique?",
+        "choices": [
+            "La constante de Planck",
+            "La constante de Boltzmann",
+            "La constante de gravitation",
+            "La constante de Faraday"
+        ],
+        "correct_answer": "La constante de Planck",
+        "difficulty_level": "1"
+    },
+    {
+        "id": 4,
+        "question": "Quel est le rôle des spectres d'émission et d'absorption en physique quantique?",
+        "choices": [
+            "Déterminer les niveaux d'énergie des atomes",
+            "Calculer la masse des atomes",
+            "Déterminer la charge des atomes",
+            "Mesurer la vitesse des électrons"
+        ],
+        "correct_answer": "Déterminer les niveaux d'énergie des atomes",
+        "difficulty_level": "1"
+    },
+    {
+        "id": 5,
+        "question": "Quel phénomène décrit l'émission d'électrons par une surface métallique sous l'effet d'un rayonnement électromagnétique?",
+        "choices": [
+            "Effet Compton",
+            "Phénomène d'interférences",
+            "Effet photoélectrique",
+            "Dualité onde-corpuscule"
+        ],
+        "correct_answer": "Effet photoélectrique",
+        "difficulty_level": "1"
+    },
+    {
+        "id": 6,
+        "question": "Comment les photons sont-ils décrits dans le cadre de l'effet photoélectrique?",
+        "choices": [
+            "Comme des ondes continues",
+            "Comme des particules ayant une énergie proportionnelle à leur fréquence",
+            "Comme des particules avec une masse",
+            "Comme des particules sans énergie"
+        ],
+        "correct_answer": "Comme des particules ayant une énergie proportionnelle à leur fréquence",
+        "difficulty_level": "1"
+    },
+    {
+        "id": 7,
+        "question": "Qu'est-ce que le seuil photoélectrique?",
+        "choices": [
+            "La vitesse maximale des électrons émis",
+            "La fréquence minimale du rayonnement nécessaire pour émettre des électrons",
+            "L'intensité maximale du rayonnement",
+            "La charge des électrons émis"
+        ],
+        "correct_answer": "La fréquence minimale du rayonnement nécessaire pour émettre des électrons",
+        "difficulty_level": "1"
+    },
+    {
+        "id": 8,
+        "question": "Quelle est l'importance de l'expérience de diffraction par double fente?",
+        "choices": [
+            "Elle montre que les électrons ont une masse",
+            "Elle démontre la nature ondulatoire des électrons",
+            "Elle prouve que les électrons se déplacent en ligne droite",
+            "Elle explique la stabilité des atomes"
+        ],
+        "correct_answer": "Elle démontre la nature ondulatoire des électrons",
+        "difficulty_level": "1"
+    },
+    {
+        "id": 9,
+        "question": "Comment la lumière est-elle décrite dans le contexte de la mécanique quantique?",
+        "choices": [
+            "Comme une onde continue",
+            "Comme une particule immobile",
+            "Comme ayant à la fois des propriétés ondulatoires et corpusculaires",
+            "Comme une particule sans masse"
+        ],
+        "correct_answer": "Comme ayant à la fois des propriétés ondulatoires et corpusculaires",
+        "difficulty_level": "1"
+    },
+    {
+        "id": 10,
+        "question": "Quelle hypothèse est essentielle pour expliquer les spectres d'émission et d'absorption selon Bohr?",
+        "choices": [
+            "L'énergie des électrons est continue",
+            "Les électrons émettent de l'énergie en continu",
+            "Les électrons occupent des orbitales stables et discrètes",
+            "Les électrons ne bougent pas"
+        ],
+        "correct_answer": "Les électrons occupent des orbitales stables et discrètes",
+        "difficulty_level": "1"
+    },
+    {
+        "id": 11,
+        "question": "Comment l'équation de Schrödinger dépendante du temps permet-elle de décrire l'évolution temporelle des systèmes quantiques?",
+        "choices": [
+            "En déterminant comment la fonction d'onde change au cours du temps",
+            "En calculant la force d'interaction entre particules",
+            "En mesurant l'énergie potentielle des particules",
+            "En déterminant la trajectoire exacte d'une particule"
+        ],
+        "correct_answer": "En déterminant comment la fonction d'onde change au cours du temps",
+        "difficulty_level": "2"
+    },
+    {
+        "id": 12,
+        "question": "Quelle est la signification physique de la normalisation de la fonction d'onde?",
+        "choices": [
+            "Elle détermine la vitesse de propagation d'une onde",
+            "Elle fixe l'énergie cinétique d'une particule",
+            "Elle assure que la probabilité totale de trouver la particule dans tout l'espace est égale à un",
+            "Elle simplifie les conditions aux limites"
+        ],
+        "correct_answer": "Elle assure que la probabilité totale de trouver la particule dans tout l'espace est égale à un",
+        "difficulty_level": "2"
+    },
+    {
+        "id": 13,
+        "question": "Pourquoi les spectres d'émission et d'absorption sont-ils importants pour comprendre les niveaux d'énergie des atomes?",
+        "choices": [
+            "Ils révèlent les niveaux d'énergie quantifiés des électrons dans les atomes",
+            "Ils déterminent la force de l'interaction électromagnétique",
+            "Ils mesurent la masse des atomes",
+            "Ils calculent la vitesse de déplacement des électrons"
+        ],
+        "correct_answer": "Ils révèlent les niveaux d'énergie quantifiés des électrons dans les atomes",
+        "difficulty_level": "2"
+    },
+    {
+        "id": 14,
+        "question": "Comment la relation de De Broglie relie-t-elle les propriétés ondulatoires et corpusculaires des particules?",
+        "choices": [
+            "Elle calcule la masse des particules en mouvement",
+            "Elle détermine l'énergie potentielle des particules",
+            "Elle associe une longueur d'onde à chaque particule en fonction de sa quantité de mouvement",
+            "Elle mesure la vitesse de déplacement des particules"
+        ],
+        "correct_answer": "Elle associe une longueur d'onde à chaque particule en fonction de sa quantité de mouvement",
+        "difficulty_level": "2"
+    },
+    {
+        "id": 15,
+        "question": "Quelle est la conséquence physique de l'effet tunnel en mécanique quantique?",
+        "choices": [
+            "Une particule suit une trajectoire déterministe à travers une barrière",
+            "Une particule peut traverser une barrière de potentiel qu'elle ne pourrait pas franchir classiquement",
+            "L'énergie totale d'une particule est conservée à travers une barrière",
+            "Une particule ne peut jamais traverser une barrière de potentiel"
+        ],
+        "correct_answer": "Une particule peut traverser une barrière de potentiel qu'elle ne pourrait pas franchir classiquement",
+        "difficulty_level": "2"
+    },
+    {
+        "id": 16,
+        "question": "Pourquoi l'état fondamental de l'oscillateur harmonique a-t-il une énergie différente de zéro?",
+        "choices": [
+            "À cause de l'énergie cinétique",
+            "À cause de l'énergie potentielle",
+            "À cause du principe d'incertitude de Heisenberg",
+            "À cause de la force gravitationnelle"
+        ],
+        "correct_answer": "À cause du principe d'incertitude de Heisenberg",
+        "difficulty_level": "2"
+    },
+    {
+        "id": 17,
+        "question": "Comment l'équation de Schrödinger dépendante du temps est-elle liée à l'interprétation statistique de la fonction d'onde?",
+        "choices": [
+            "Elle décrit l'évolution temporelle de la probabilité de trouver une particule dans un état donné",
+            "Elle mesure la masse des particules",
+            "Elle calcule la vitesse des particules",
+            "Elle détermine la trajectoire exacte des particules"
+        ],
+        "correct_answer": "Elle décrit l'évolution temporelle de la probabilité de trouver une particule dans un état donné",
+        "difficulty_level": "2"
+    },
+    {
+        "id": 18,
+        "question": "Quel est le rôle des opérateurs d'échelle dans la résolution de l'oscillateur harmonique en mécanique quantique?",
+        "choices": [
+            "Ils déterminent la trajectoire exacte des particules",
+            "Ils calculent la force d'interaction entre particules",
+            "Ils mesurent l'énergie potentielle des particules",
+            "Ils permettent de générer des états excités à partir de l'état fondamental"
+        ],
+        "correct_answer": "Ils permettent de générer des états excités à partir de l'état fondamental",
+        "difficulty_level": "2"
+    },
+    {
+        "id": 19,
+        "question": "Comment les états liés et les états de diffusion diffèrent-ils dans un potentiel de puits carré fini?",
+        "choices": [
+            "Les états liés sont normalisables et ont une énergie inférieure à la hauteur du puits, tandis que les états de diffusion ne sont pas normalisables et ont une énergie supérieure à la hauteur du puits",
+            "Les états liés et les états de diffusion ont la même énergie et ne peuvent pas être distingués",
+            "Les états liés sont non normalisables et ont une énergie supérieure à la hauteur du puits, tandis que les états de diffusion sont normalisables et ont une énergie inférieure à la hauteur du puits",
+            "Les états liés n'existent que pour les puits de potentiel infini, tandis que les états de diffusion n'existent que pour les puits de potentiel fini"
+        ],
+        "correct_answer": "Les états liés sont normalisables et ont une énergie inférieure à la hauteur du puits, tandis que les états de diffusion ne sont pas normalisables et ont une énergie supérieure à la hauteur du puits",
+        "difficulty_level": "2"
+    },
+    {
+        "id": 20,
+        "question": "Pourquoi la mécanique quantique utilise-t-elle des fonctions d'onde complexes pour décrire les états des particules?",
+        "choices": [
+            "Parce qu'elles permettent de représenter à la fois l'amplitude et la phase des états quantiques",
+            "Parce qu'elles mesurent la masse des particules",
+            "Parce qu'elles calculent la vitesse des particules",
+            "Parce qu'elles déterminent la trajectoire exacte des particules"
+        ],
+        "correct_answer": "Parce qu'elles permettent de représenter à la fois l'amplitude et la phase des états quantiques",
+        "difficulty_level": "2"
+    },
+    {
+        "id": 21,
+        "question": "Expliquez comment l'effet photoélectrique a conduit à la notion de quantification de l'énergie et comment cela a influencé le développement de la mécanique quantique.",
+        "choices": [
+            "L'effet photoélectrique a démontré que la lumière peut émettre des électrons uniquement si sa fréquence dépasse un certain seuil, ce qui a conduit à l'idée que l'énergie est quantifiée en paquets discrets appelés quanta.",
+            "L'effet photoélectrique a prouvé que l'énergie lumineuse est continue, influençant la théorie de la relativité.",
+            "L'effet photoélectrique a montré que les électrons peuvent absorber n'importe quelle quantité d'énergie, soutenant les théories classiques.",
+            "L'effet photoélectrique a révélé que la lumière est une onde purement continue, ce qui a été intégré directement dans la théorie ondulatoire de la lumière."
+        ],
+        "correct_answer": "L'effet photoélectrique a démontré que la lumière peut émettre des électrons uniquement si sa fréquence dépasse un certain seuil, ce qui a conduit à l'idée que l'énergie est quantifiée en paquets discrets appelés quanta.",
+        "difficulty_level": "3"
+    },
+    {
+        "id": 22,
+        "question": "Décrivez comment le principe d'incertitude de Heisenberg et la dualité onde-corpuscule sont liés et leurs implications sur la compréhension de la nature des particules subatomiques.",
+        "choices": [
+            "Le principe d'incertitude de Heisenberg et la dualité onde-corpuscule montrent que les particules subatomiques ne peuvent pas avoir des positions et des vitesses définies simultanément, car elles se comportent à la fois comme des ondes et des particules, ce qui limite la précision des mesures.",
+            "Le principe d'incertitude de Heisenberg indique que la position et la vitesse des particules peuvent être mesurées avec une précision infinie, contrairement à la dualité onde-corpuscule.",
+            "Le principe d'incertitude de Heisenberg contredit la dualité onde-corpuscule en affirmant que les particules sont soit des ondes, soit des particules, mais jamais les deux en même temps.",
+            "La dualité onde-corpuscule élimine le besoin du principe d'incertitude de Heisenberg en décrivant précisément le comportement des particules."
+        ],
+        "correct_answer": "Le principe d'incertitude de Heisenberg et la dualité onde-corpuscule montrent que les particules subatomiques ne peuvent pas avoir des positions et des vitesses définies simultanément, car elles se comportent à la fois comme des ondes et des particules, ce qui limite la précision des mesures.",
+        "difficulty_level": "3"
+    },
+    {
+        "id": 23,
+        "question": "Discutez l'importance de l'équation de Schrödinger dans la mécanique quantique et comment elle permet de décrire l'évolution des systèmes quantiques.",
+        "choices": [
+            "L'équation de Schrödinger est fondamentale en mécanique quantique car elle décrit comment la fonction d'onde d'un système quantique évolue dans le temps, permettant ainsi de prédire les comportements probabilistes des particules.",
+            "L'équation de Schrödinger est utilisée uniquement pour calculer l'énergie des électrons dans un atome sans aucune implication temporelle.",
+            "L'équation de Schrödinger est remplacée par les équations de Newton dans le cadre quantique pour décrire l'évolution des systèmes.",
+            "L'équation de Schrödinger ne joue aucun rôle dans la mécanique quantique moderne et est considérée obsolète."
+        ],
+        "correct_answer": "L'équation de Schrödinger est fondamentale en mécanique quantique car elle décrit comment la fonction d'onde d'un système quantique évolue dans le temps, permettant ainsi de prédire les comportements probabilistes des particules.",
+        "difficulty_level": "3"
+    },
+    {
+        "id": 24,
+        "question": "Expliquez comment l'expérience de diffraction par double fente illustre la dualité onde-corpuscule des électrons et comment cela a changé notre compréhension des particules subatomiques.",
+        "choices": [
+            "L'expérience de diffraction par double fente montre que les électrons, lorsqu'ils passent par les fentes, créent un motif d'interférence typique des ondes, démontrant ainsi leur nature ondulatoire. Cela a révélé que les particules subatomiques possèdent à la fois des propriétés ondulatoires et corpusculaires.",
+            "L'expérience de diffraction par double fente prouve que les électrons se comportent uniquement comme des particules, ce qui a confirmé les théories classiques sur la matière.",
+            "L'expérience de diffraction par double fente indique que les électrons n'interagissent pas avec les ondes lumineuses, ce qui a mené à l'abandon de la dualité onde-corpuscule.",
+            "L'expérience de diffraction par double fente a démontré que les électrons se comportent comme des ondes uniquement dans des conditions spécifiques, sans implications sur leur nature corpusculaire."
+        ],
+        "correct_answer": "L'expérience de diffraction par double fente montre que les électrons, lorsqu'ils passent par les fentes, créent un motif d'interférence typique des ondes, démontrant ainsi leur nature ondulatoire. Cela a révélé que les particules subatomiques possèdent à la fois des propriétés ondulatoires et corpusculaires.",
+        "difficulty_level": "3"
+    },
+    {
+        "id": 25,
+        "question": "Analysez comment l'effet Compton a contribué à la confirmation du modèle quantique de la lumière et des particules, et les conséquences sur la compréhension de la physique à l'échelle microscopique.",
+        "choices": [
+            "L'effet Compton a montré que les photons ont une quantité de mouvement proportionnelle à leur énergie et peuvent transférer de l'énergie aux électrons, ce qui a confirmé que la lumière peut se comporter comme des particules, renforçant le modèle quantique de la lumière.",
+            "L'effet Compton a prouvé que les photons sont des ondes pures sans interaction avec les électrons, remettant en cause le modèle quantique de la lumière.",
+            "L'effet Compton a révélé que les électrons peuvent absorber de l'énergie sans modifier leur quantité de mouvement, soutenant les théories classiques.",
+            "L'effet Compton a démontré que la lumière se comporte uniquement comme une onde, contredisant le modèle quantique."
+        ],
+        "correct_answer": "L'effet Compton a montré que les photons ont une quantité de mouvement proportionnelle à leur énergie et peuvent transférer de l'énergie aux électrons, ce qui a confirmé que la lumière peut se comporter comme des particules, renforçant le modèle quantique de la lumière.",
+        "difficulty_level": "3"
+    },
+    {
+        "id": 26,
+        "question": "Discutez le rôle du principe de superposition dans la mécanique quantique et comment il permet d'expliquer les phénomènes d'intrication quantique.",
+        "choices": [
+            "Le principe de superposition permet à un système quantique d'exister dans plusieurs états simultanément, ce qui explique l'intrication quantique où les états de deux particules deviennent interdépendants, même lorsqu'elles sont séparées par de grandes distances.",
+            "Le principe de superposition stipule que les particules quantiques suivent des trajectoires déterministes, ce qui exclut l'intrication quantique.",
+            "Le principe de superposition interdit aux particules de partager des états similaires, ce qui rend l'intrication quantique impossible.",
+            "Le principe de superposition n'a aucun lien avec les phénomènes d'intrication quantique et ne s'applique qu'à la superposition d'ondes."
+        ],
+        "correct_answer": "Le principe de superposition permet à un système quantique d'exister dans plusieurs états simultanément, ce qui explique l'intrication quantique où les états de deux particules deviennent interdépendants, même lorsqu'elles sont séparées par de grandes distances.",
+        "difficulty_level": "3"
+    },
+    {
+        "id": 27,
+        "question": "Expliquez comment la normalisation de la fonction d'onde assure la conservation de la probabilité totale dans un système quantique.",
+        "choices": [
+            "La normalisation de la fonction d'onde garantit que l'intégrale de la densité de probabilité sur tout l'espace est égale à un, assurant ainsi que la probabilité totale de trouver la particule est toujours de 100%.",
+            "La normalisation de la fonction d'onde permet de calculer l'énergie cinétique d'une particule.",
+            "La normalisation de la fonction d'onde fixe les conditions aux limites des systèmes quantiques.",
+            "La normalisation de la fonction d'onde détermine la vitesse de propagation d'une onde dans un milieu donné."
+        ],
+        "correct_answer": "La normalisation de la fonction d'onde garantit que l'intégrale de la densité de probabilité sur tout l'espace est égale à un, assurant ainsi que la probabilité totale de trouver la particule est toujours de 100%.",
+        "difficulty_level": "3"
+    },
+    {
+        "id": 28,
+        "question": "Analysez l'importance des spectres d'émission et d'absorption pour déterminer les niveaux d'énergie quantifiés dans les atomes et comment cela a influencé le développement de la théorie atomique moderne.",
+        "choices": [
+            "Les spectres d'émission et d'absorption ont révélé que les électrons dans les atomes occupent des niveaux d'énergie quantifiés, ce qui a conduit à la formulation de modèles atomiques plus précis et à la confirmation des théories quantiques.",
+            "Les spectres d'émission et d'absorption ont montré que les atomes n'ont pas de niveaux d'énergie définis, soutenant les théories classiques.",
+            "Les spectres d'émission et d'absorption ont indiqué que les niveaux d'énergie des électrons sont continus, remettant en cause la quantification de l'énergie.",
+            "Les spectres d'émission et d'absorption n'ont eu aucun impact sur le développement de la théorie atomique moderne."
+        ],
+        "correct_answer": "Les spectres d'émission et d'absorption ont révélé que les électrons dans les atomes occupent des niveaux d'énergie quantifiés, ce qui a conduit à la formulation de modèles atomiques plus précis et à la confirmation des théories quantiques.",
+        "difficulty_level": "3"
+    },
+    {
+        "id": 29,
+        "question": "Décrivez comment l'effet tunnel, illustré par le phénomène de la radioactivité alpha, a confirmé certaines prédictions de la mécanique quantique.",
+        "choices": [
+            "L'effet tunnel permet à des particules alpha de traverser une barrière de potentiel qu'elles ne pourraient pas franchir classiquement, confirmant ainsi la prédiction quantique que des particules peuvent exister de l'autre côté d'une barrière énergétique sans avoir assez d'énergie pour la surmonter directement.",
+            "L'effet tunnel prouve que les particules alpha ne peuvent jamais traverser une barrière de potentiel, soutenant les théories classiques.",
+            "L'effet tunnel indique que les particules alpha suivent des trajectoires déterministes à travers les barrières de potentiel.",
+            "L'effet tunnel montre que les particules alpha sont absorbées par les barrières de potentiel, réfutant les prédictions quantiques."
+        ],
+        "correct_answer": "L'effet tunnel permet à des particules alpha de traverser une barrière de potentiel qu'elles ne pourraient pas franchir classiquement, confirmant ainsi la prédiction quantique que des particules peuvent exister de l'autre côté d'une barrière énergétique sans avoir assez d'énergie pour la surmonter directement.",
+        "difficulty_level": "3"
+    },
+    {
+        "id": 30,
+        "question": "Analysez comment les concepts de quantification de l'énergie, du principe de superposition et du principe d'incertitude de Heisenberg sont intégrés dans l'équation de Schrödinger pour décrire les systèmes quantiques.",
+        "choices": [
+            "L'équation de Schrödinger intègre la quantification de l'énergie en permettant des solutions où les niveaux d'énergie sont discrets, le principe de superposition en permettant la combinaison linéaire d'états quantiques, et le principe d'incertitude de Heisenberg en imposant des limitations sur la précision simultanée des mesures de position et d'impulsion.",
+            "L'équation de Schrödinger utilise uniquement la quantification de l'énergie et ignore le principe de superposition et le principe d'incertitude de Heisenberg.",
+            "L'équation de Schrödinger applique uniquement le principe d'incertitude de Heisenberg sans tenir compte de la quantification de l'énergie et du principe de superposition.",
+            "L'équation de Schrödinger n'intègre aucun des concepts de la mécanique quantique moderne et est basée sur les théories classiques."
+        ],
+        "correct_answer": "L'équation de Schrödinger intègre la quantification de l'énergie en permettant des solutions où les niveaux d'énergie sont discrets, le principe de superposition en permettant la combinaison linéaire d'états quantiques, et le principe d'incertitude de Heisenberg en imposant des limitations sur la précision simultanée des mesures de position et d'impulsion.",
+        "difficulty_level": "3"
+    }
+]

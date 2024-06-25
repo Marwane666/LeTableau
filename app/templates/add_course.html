@@ -1,0 +1,63 @@
+{% extends "base.html" %} {% block content %}
+<div class="container">
+  <div class="card">
+    <div class="card-body">
+      <h1 class="card-title">Ajouter un Cours</h1>
+      <form
+        action="{{ url_for('add_course') }}"
+        method="post"
+        enctype="multipart/form-data"
+      >
+        <div class="form-group">
+          <label for="module_id">Module</label>
+          <select name="module_id" id="module_id" class="form-control" required>
+            {% for module in modules %}
+            <option value="{{ module.id }}">{{ module.title }}</option>
+            {% endfor %}
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="title">Titre du Cours</label>
+          <input
+            type="text"
+            name="title"
+            id="title"
+            class="form-control"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="content">Contenu</label>
+          <textarea
+            name="content"
+            id="content"
+            class="form-control"
+            required
+          ></textarea>
+        </div>
+        <div class="form-group">
+          <label for="file_path">Fichier du Cours</label>
+          <input
+            type="file"
+            name="file_path"
+            id="file_path"
+            class="form-control"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="quiz_path">Fichier du Quiz</label>
+          <input
+            type="file"
+            name="quiz_path"
+            id="quiz_path"
+            class="form-control"
+            required
+          />
+        </div>
+        <button type="submit" class="btn btn-primary">Ajouter le Cours</button>
+      </form>
+    </div>
+  </div>
+</div>
+{% endblock %}

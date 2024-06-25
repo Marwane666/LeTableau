@@ -1,0 +1,59 @@
+{% extends "base.html" %} {% block content %}
+<link
+  rel="stylesheet"
+  href="{{ url_for('static', filename='quizdetails.css') }}"
+/>
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+      <div class="details-card">
+        <div class="card-body">
+          <h5 class="card-title text-center">Détails du Quizz</h5>
+          <div class="scrollable-container">
+            <div class="list-group">
+              {% for i, question in enumerate(questions) %}
+              <div class="list-group-item">
+                <h6 class="mb-2 question-title">
+                  <strong>Question {{ i+1 }}:</strong> {{ question['question']
+                  }}
+                </h6>
+                <p>
+                  <strong>Votre réponse:</strong>
+                  <span
+                    class="{% if answers[str(i)] == question['correct_answer'] %}text-success{% else %}text-danger{% endif %}"
+                  >
+                    {{ answers[str(i)] }}
+                  </span>
+                </p>
+                <p>
+                  <strong>Réponse correcte:</strong>
+                  <span class="text-success"
+                    >{{ question['correct_answer'] }}</span
+                  >
+                </p>
+              </div>
+              {% endfor %}
+            </div>
+          </div>
+          <div class="button-container text-center mt-3">
+            <button
+              type="button"
+              class="btn btn-primary"
+              onclick="location.href='{{ url_for('quizz_start') }}'"
+            >
+              <i class="fas fa-redo-alt"></i> Réessayer
+            </button>
+            <button
+              type="button"
+              class="btn btn-secondary"
+              onclick="location.href='{{ url_for('quizz_result') }}'"
+            >
+              <i class="fas fa-arrow-left"></i> Retour aux résultats
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

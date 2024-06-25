@@ -1,0 +1,430 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+    overflow: hidden;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    width: 60px;
+    background-color: #ffffff;
+    color: #333;
+    float: left;
+    border-right: 1px solid #ddd;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.sidebar img {
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+.sidebar nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.sidebar nav a {
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.sidebar nav a i {
+    font-size: 24px;
+    color: #888;
+}
+
+.sidebar nav a:hover i,
+.sidebar nav a.active i {
+    color: #007bff;
+}
+
+.bottom-nav {
+    margin-top: auto;
+    margin-bottom: 20px;
+}
+
+.bottom-nav a {
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    color: #333;
+    text-decoration: none;
+}
+
+.bottom-nav a i {
+    font-size: 24px;
+    color: #888;
+}
+
+.bottom-nav a:hover i,
+.bottom-nav a.active i {
+    color: #007bff;
+}
+
+/* Main Content Styles */
+.main-content {
+    margin-left: 60px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+/* Header Styles */
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed; /* Changement ici */
+    top: 0;
+    width: calc(100% - 140px); /* Pour compenser la largeur de la sidebar */
+    background-color: #ffffff; /* Assurez-vous que le fond est blanc */
+    z-index: 1000;
+    transition: top 0.3s;
+}
+
+
+header .welcome-message {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+header .welcome-message span {
+    color: #ff3366;
+}
+
+header .search-bar {
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+header .search-bar input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+}
+
+header .icons {
+    display: flex;
+    align-items: center;
+}
+
+header .icons i {
+    font-size: 18px;
+    margin: 0 10px;
+    cursor: pointer;
+    color: #888;
+}
+
+header .icons i:hover {
+    color: #ff3366;
+}
+
+header .user-info {
+    display: flex;
+    align-items: center;
+}
+
+header .user-info img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+header .user-info div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+header .user-info div span:first-child {
+    font-weight: bold;
+    color: #333;
+}
+
+header .user-info div span:last-child {
+    font-size: 14px;
+    color: #888;
+}
+
+/* Dashboard Content Styles */
+.dashboard-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.dashboard-content .left-column {
+    width: 68%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.dashboard-content .right-column {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.dashboard-content .section {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section .header h2 {
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+}
+
+.section .header .dropdown {
+    position: relative;
+}
+
+.section .header .dropdown .dropdown-btn {
+    background: none;
+    border: none;
+    color: #888;
+    cursor: pointer;
+}
+
+.section .header .dropdown .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 20px;
+    right: 0;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    z-index: 10;
+}
+
+.section .header .dropdown .dropdown-content a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+}
+
+.section .header .dropdown .dropdown-content a:hover {
+    background-color: #f0f0f0;
+}
+
+.section .header .dropdown .dropdown-content a:last-child {
+    border-bottom: none;
+}
+
+.section .header .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.chart {
+    height: 250px;
+    width: 100%;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chart canvas {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.notifications ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex: 1;
+}
+
+.notifications li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.notifications li:last-child {
+    border-bottom: none;
+}
+
+.notifications li img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.notifications li div {
+    flex: 1;
+}
+
+.notifications li button {
+    background: none;
+    border: none;
+    color: #888;
+    cursor: pointer;
+}
+
+.notifications li button:hover {
+    color: #333;
+}
+
+.notifications li .notification-title {
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+}
+
+.notifications li .notification-subtitle {
+    font-size: 12px;
+    color: #888;
+}
+
+.assignments {
+    height: 240px;
+}
+
+.assignments .assignment {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.assignments .assignment:last-child {
+    border-bottom: none;
+}
+
+.assignments .assignment img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.assignments .assignment div {
+    flex: 1;
+}
+
+.assignments .assignment .assignment-title {
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+}
+
+.assignments .assignment .assignment-subtitle {
+    font-size: 12px;
+    color: #888;
+}
+
+.assignments .assignment .assignment-status {
+    font-size: 12px;
+    color: #888;
+    margin-top: 5px;
+}
+
+assignments .assignment button {
+    background: none;
+    border: none;
+    color: #888;
+    cursor: pointer;
+}
+
+assignments .assignment button:hover {
+    color: #333;
+}
+
+/* Heading Styles
+h1, h2, h3 {
+    color: #333;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.card {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card-header {
+    background-color: #007bff;
+    color: white;
+    border-radius: 15px 15px 0 0;
+}
+
+.progress-bar {
+    background-color: #007bff;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+#timer {
+    font-size: 1.5em;
+    color: #007bff;
+} */

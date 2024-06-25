@@ -1,0 +1,124 @@
+/* quiz.css */
+
+.container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .details-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .details-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .scrollable-container {
+    max-height: 400px; /* Adjust the height as needed */
+    overflow-y: auto;
+    padding-right: 10px;
+    margin-bottom: 20px; /* Space between the list and the buttons */
+    background-color: #f4f4f9; /* Light background for the scrollable area */
+    border-radius: 8px;
+    padding: 10px;
+    scrollbar-width: thin;
+    scrollbar-color: #007bff #f4f4f9;
+  }
+  
+  .scrollable-container::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .scrollable-container::-webkit-scrollbar-thumb {
+    background-color: #007bff;
+    border-radius: 10px;
+  }
+  
+  .scrollable-container::-webkit-scrollbar-track {
+    background-color: #f4f4f9;
+  }
+  
+  .list-group-item {
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 15px 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .list-group-item:hover {
+    background-color: #f0f0f5;
+  }
+  
+  .list-group-item:last-child {
+    border-bottom: none;
+  }
+  
+  .list-group-item h6 {
+    margin-bottom: 10px;
+  }
+  
+  .text-success {
+    color: #28a745 !important;
+  }
+  
+  .text-danger {
+    color: #dc3545 !important;
+  }
+  
+  .text-info {
+    color: #17a2b8 !important;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333; /* Darker color for the title */
+    font-weight: bold;
+  }
+  
+  .button-container {
+    margin-top: 20px;
+  }
+  
+  .btn {
+    width: 150px;
+    margin: 5px;
+    font-size: 1rem;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  .btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #565e64;
+    transform: scale(1.05);
+  }
+  
+  .question-title {
+    font-weight: bold;
+    color: #444; /* Slightly darker color for questions */
+  }
+  
+  .list-group-item p {
+    margin-bottom: 5px;
+  }

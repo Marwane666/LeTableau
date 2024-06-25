@@ -1,0 +1,111 @@
+{% extends "base.html" %} {% block title %} Chatbot {% endblock %} {% block
+content %}
+<link rel="stylesheet" href="{{ url_for('static', filename='chatbot.css') }}" />
+
+<div class="chatbot-container">
+  <div class="header">
+    <div class="course-selection">
+      <select>
+        <option>Choix du cours</option>
+        <!-- Add other options here -->
+      </select>
+    </div>
+    <input type="text" placeholder="Search Here" />
+  </div>
+  <div class="content">
+    <div class="chat-area" id="chat-area">
+      <div class="conversation" id="conversation">
+        <!-- Conversation messages go here -->
+      </div>
+      <div class="message-input-container">
+        <form
+          id="chatForm"
+          action="/send_message"
+          method="post"
+          class="message-input"
+        >
+          <input
+            type="text"
+            id="messageInput"
+            name="message"
+            placeholder="Tapez votre message..."
+            required
+          />
+          <button type="submit" id="sendButton">Envoyer</button>
+        </form>
+      </div>
+    </div>
+    <div class="conversation-list">
+      <ul>
+        <li>Conversation 1</li>
+        <li>Conversation 2</li>
+        <li>Conversation 3</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/showdown/dist/showdown.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/contrib/auto-render.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const chatForm = document.getElementById("chatForm");
+    chatForm.addEventListener("submit", async function (event) {
+      event.preventDefault();
+
+      const formData = new FormData(chatForm);
+      const userMessage = formData.get("message");
+
+      const conversation = document.getElementById("conversation");
+
+      // Afficher le message de l'utilisateur
+      const userMessageElement = document.createElement("div");
+      userMessageElement.classList.add("user-message");
+      userMessageElement.innerHTML = userMessage; // Ajouter le message de l'utilisateur en texte brut
+      conversation.appendChild(userMessageElement);
+
+      // Réinitialiser l'input après envoi du message
+      chatForm.reset();
+
+      // Envoyer le message au serveur
+      try {
+        const response = await fetch("/send_message", {
+          method: "POST",
+          body: formData,
+        });
+
+        const result = await response.json();
+
+        // Afficher la réponse du bot
+        const botMessageElement = document.createElement("div");
+        botMessageElement.classList.add("bot-message");
+        botMessageElement.innerHTML = result.response || "Error: No response";
+        conversation.appendChild(botMessageElement);
+
+        // Rendre les éléments LaTeX avec KaTeX
+        renderMathInElement(botMessageElement, {
+          delimiters: [
+            { left: "$$", right: "$$", display: true },
+            { left: "$", right: "$", display: false },
+            { left: "\\[", right: "\\]", display: true },
+            { left: "\\(", right: "\\)", display: false },
+          ],
+        });
+
+        conversation.scrollTop = conversation.scrollHeight; // Scroll to the bottom
+      } catch (error) {
+        console.error("Error:", error);
+        const botMessageElement = document.createElement("div");
+        botMessageElement.classList.add("bot-message");
+        botMessageElement.textContent = "Error: No response";
+        conversation.appendChild(botMessageElement);
+
+        conversation.scrollTop = conversation.scrollHeight; // Scroll to the bottom
+      }
+
+      conversation.scrollTop = conversation.scrollHeight; // Scroll to the bottom
+    });
+  });
+</script>
+{% endblock %}

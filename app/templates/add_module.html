@@ -1,0 +1,22 @@
+{% extends "base.html" %} {% block content %}
+<div class="container">
+  <div class="card">
+    <div class="card-body">
+      <h1 class="card-title">Ajouter un Module</h1>
+      <form action="{{ url_for('add_module') }}" method="post">
+        <div class="form-group">
+          <label for="title">Titre du Module</label>
+          <input
+            type="text"
+            name="title"
+            id="title"
+            class="form-control"
+            required
+          />
+        </div>
+        <button type="submit" class="btn btn-primary">Ajouter le Module</button>
+      </form>
+    </div>
+  </div>
+</div>
+{% endblock %}

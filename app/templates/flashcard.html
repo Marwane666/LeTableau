@@ -1,0 +1,49 @@
+{% extends "base.html" %} {% block content %}
+<link
+  rel="stylesheet"
+  href="{{ url_for('static', filename='flashcard.css') }}"
+/>
+<div class="container">
+  <h1>Flashcards</h1>
+  <div class="flashcard-container">
+    <select id="course-select">
+      <option value="">Select a course</option>
+      {% for course in courses %}
+      <option value="{{ course.id }}">{{ course.title }}</option>
+      {% endfor %}
+    </select>
+    <button id="draw-question" class="btn btn-primary">Draw question</button>
+    <div id="flashcard" class="card" style="display: none">
+      <div class="card-body">
+        <h5 class="card-title" id="question"></h5>
+        <p class="card-text" id="answer" style="display: none"></p>
+        <button id="show-answer" class="btn btn-secondary">Show answer</button>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  $(document).ready(function () {
+    $("#draw-question").click(function () {
+      var courseId = $("#course-select").val();
+      if (!courseId) {
+        alert("Please select a course");
+        return;
+      }
+      $.get("/get_flashcard/" + courseId, function (data) {
+        if (data.error) {
+          alert(data.error);
+        } else {
+          $("#question").text(data.question);
+          $("#answer").text(data.answer).hide();
+          $("#flashcard").show();
+        }
+      });
+    });
+
+    $("#show-answer").click(function () {
+      $("#answer").toggle();
+    });
+  });
+</script>
+{% endblock %}
