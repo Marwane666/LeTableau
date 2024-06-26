@@ -344,27 +344,21 @@ def init_routes(app):
     @app.route('/flashcard')
     @login_required
     def flashcard():
-        courses = Course.query.all()
-        return render_template('flashcard.html', courses=courses)
-
-    @app.route('/get_flashcard/<int:course_id>')
-    @login_required
-    def get_flashcard(course_id):
+        course_id = request.args.get('course_id')
         course = Course.query.get(course_id)
-        if not course:
-            return jsonify({'error': 'Course not found'}), 404
 
-        questions = load_questions(course.quiz_path)
-        if not questions:
+        if not course or not course.quiz_path:
             return jsonify({'error': 'No flashcards found'}), 404
 
+        questions = load_questions(course.quiz_path)
         flashcard = random.choice(questions)
         return jsonify({'question': flashcard['question'], 'answer': flashcard['correct_answer']})
 
     @app.route('/flashcard_page')
     @login_required
     def flashcard_page():
-        return render_template('flashcard.html')
+        courses = Course.query.all()
+        return render_template('flashcard.html', courses=courses)
 
     @app.route('/logout')
     def logout():

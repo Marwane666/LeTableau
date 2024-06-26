@@ -60,13 +60,8 @@
         <a href="{{ url_for('add_module_form') }}" id="nav-add-module"
           ><i class="fas fa-plus-circle"></i
         ></a>
-        <a href="{{ url_for('add_course_form') }}" id="nav-add-course"
-          ><i class="fas fa-plus-circle"></i
-        ></a>
         {% endif %}
-        <a href="{{ url_for('flashcard_page') }}" id="nav-courses"
-          ><i class="fas fa-book"></i
-        ></a>
+        <a href="#" id="nav-courses"><i class="fas fa-book"></i></a>
         <a href="#" id="nav-settings"><i class="fas fa-cog"></i></a>
       </nav>
       <div class="bottom-nav">
@@ -78,7 +73,7 @@
     <div class="main-content">
       <header>
         <div class="welcome-message">
-          Welcome <span>{{ current_user.name }}</span>
+          Bonjour <span>{{ current_user.name }} </span> !
         </div>
         <div class="search-bar">
           <input type="text" placeholder="Search Here" />

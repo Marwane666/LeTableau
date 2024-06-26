@@ -4,6 +4,7 @@
     background-color: #f9f9f9;
     padding: 20px;
     border-radius: 8px;
+    margin-top: 40PX;
   }
   
   .details-card {
@@ -77,9 +78,12 @@
   .card-title {
     font-size: 1.5rem;
     margin-bottom: 20px;
+    margin-TOP: 15px;
+    padding-top: 15px;
     text-align: center;
     color: #333; /* Darker color for the title */
     font-weight: bold;
+    height: 35PX;
   }
   
   .button-container {

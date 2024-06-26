@@ -18,9 +18,7 @@ logging.getLogger().addHandler(logging.StreamHandler(stream=sys.stdout))
 def initialize_and_persist_vectorstore(pdf_path, persist_dir):
     api_key = os.getenv('OPENAI_API_KEY')
     if not api_key:
-        7
-    
-    openai.api_key = api_key
+        openai.api_key = api_key
 
     if not os.path.exists(persist_dir):
         os.makedirs(persist_dir)
