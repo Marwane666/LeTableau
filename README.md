@@ -72,7 +72,7 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) an
 
 ```bash
 # Clone this project
-$ git clone https://github.com/{{YOUR_GITHUB_USERNAME}}/e_learning_dashboard
+$ git clone https://github.com/Marwane666/e_learning_dashboard
 
 # Access
 $ cd e_learning_dashboard
@@ -91,7 +91,7 @@ $ yarn start
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
 
 
-Made with :heart: by <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">{{YOUR_NAME}}</a>
+Made with :heart: by <a href="https://github.com/Marwane666" target="_blank">Marwane KASSA</a>
 
 &#xa0;
 
