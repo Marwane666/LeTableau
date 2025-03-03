@@ -1,36 +1,19 @@
 <div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="E_learning_dashboard" />
+  <img src="./.github/app.gif" alt="LeTableau E-learning Platform" />
 
   &#xa0;
 
-  <!-- <a href="https://e_learning_dashboard.netlify.app">Demo</a> -->
+  <!-- <a href="https://letableau.netlify.app">Demo</a> -->
 </div>
 
-<h1 align="center">E_learning_dashboard</h1>
+<h1 align="center">LeTableau</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/{{YOUR_GITHUB_USERNAME}}/e_learning_dashboard?color=56BEB8">
-
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/{{YOUR_GITHUB_USERNAME}}/e_learning_dashboard?color=56BEB8">
-
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/{{YOUR_GITHUB_USERNAME}}/e_learning_dashboard?color=56BEB8">
-
-  <img alt="License" src="https://img.shields.io/github/license/{{YOUR_GITHUB_USERNAME}}/e_learning_dashboard?color=56BEB8">
-
-  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/{{YOUR_GITHUB_USERNAME}}/e_learning_dashboard?color=56BEB8" /> -->
-
-  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/{{YOUR_GITHUB_USERNAME}}/e_learning_dashboard?color=56BEB8" /> -->
-
-  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/{{YOUR_GITHUB_USERNAME}}/e_learning_dashboard?color=56BEB8" /> -->
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/{{YOUR_GITHUB_USERNAME}}/letableau?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/{{YOUR_GITHUB_USERNAME}}/letableau?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/{{YOUR_GITHUB_USERNAME}}/letableau?color=56BEB8">
+  <img alt="License" src="https://img.shields.io/github/license/{{YOUR_GITHUB_USERNAME}}/letableau?color=56BEB8">
 </p>
-
-<!-- Status -->
-
-<!-- <h4 align="center"> 
-	🚧  E_learning_dashboard 🚀 Under construction...  🚧
-</h4> 
-
-<hr> -->
 
 <p align="center">
   <a href="#dart-about">About</a> &#xa0; | &#xa0; 
@@ -39,60 +22,69 @@
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
   <a href="#memo-license">License</a> &#xa0; | &#xa0;
-  <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">Author</a>
 </p>
 
-<br>
+## :dart: About
 
-## :dart: About ##
+LeTableau is an innovative e-learning platform designed to facilitate learning and knowledge sharing in a dynamic online environment. Users can access a wide range of courses, interact with instructors, and collaborate with peers for a comprehensive educational experience.
 
-Describe your project
+## :sparkles: Features
 
-## :sparkles: Features ##
+- **User-Friendly Interface**: Easy navigation and access to all course materials.
+- **Diverse Course Offerings**: A wide range of subjects tailored to different learning needs.
+- **Interactive Learning**: Participate in discussions, quizzes, and collaborative projects.
+- **Progress Tracking**: Monitor your learning progress and achievements over time.
+- **Certificate Generation**: Earn certificates upon course completion to showcase your skills.
 
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
+## :rocket: Technologies
 
-## :rocket: Technologies ##
+LeTableau is built using the following technologies:
 
-The following tools were used in this project:
+- **Frontend**: HTML, CSS, JavaScript, React
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB
+- **Deployment**: Heroku, Netlify
 
-- [Expo](https://expo.io/)
-- [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
+## :white_check_mark: Requirements
 
-## :white_check_mark: Requirements ##
+To run LeTableau locally, you will need:
 
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
+- Node.js (version X.X.X or higher)
+- MongoDB (either locally or using a cloud service)
+- A web browser to access the application
 
-## :checkered_flag: Starting ##
+## :checkered_flag: Starting
 
-```bash
-# Clone this project
-$ git clone https://github.com/Marwane666/e_learning_dashboard
+To get a local copy up and running follow these simple steps:
 
-# Access
-$ cd e_learning_dashboard
+1. Clone the repository:
 
-# Install dependencies
-$ yarn
+   ```bash
+   git clone https://github.com/{{YOUR_GITHUB_USERNAME}}/letableau.git
+   ```
 
-# Run the project
-$ yarn start
+2. Navigate to the project directory:
 
-# The server will initialize in the <http://localhost:3000>
-```
+   ```bash
+   cd letableau
+   ```
 
-## :memo: License ##
+3. Install the dependencies:
 
-This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
+   ```bash
+   npm install
+   ```
 
+4. Start the server:
 
-Made with :heart: by <a href="https://github.com/Marwane666" target="_blank">Marwane KASSA</a>
+   ```bash
+   npm start
+   ```
 
-&#xa0;
+5. Open your browser and visit `http://localhost:3000` to access LeTableau.
 
-<a href="#top">Back to top</a>
+## :memo: License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+Feel free to contribute, share your feedback, or raise issues to enhance this platform further! Happy learning on LeTableau!
