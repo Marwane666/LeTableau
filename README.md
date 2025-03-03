@@ -40,51 +40,45 @@ LeTableau is an innovative e-learning platform designed to facilitate learning a
 
 LeTableau is built using the following technologies:
 
-- **Frontend**: HTML, CSS, JavaScript, React
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB
-- **Deployment**: Heroku, Netlify
+- **Flask**: A lightweight WSGI web application framework in Python.
+- **LlamaIndex**: A powerful indexing tool to optimize data retrieval.
+- **MongoDB**: A NoSQL database for flexible data storage and management.
 
 ## :white_check_mark: Requirements
 
-To run LeTableau locally, you will need:
+To run this project, you need:
 
-- Node.js (version X.X.X or higher)
-- MongoDB (either locally or using a cloud service)
-- A web browser to access the application
+- Python 3.x
+- Flask
+- MongoDB
+- Required Python libraries (listed in requirements.txt)
 
 ## :checkered_flag: Starting
 
-To get a local copy up and running follow these simple steps:
+To get started with LeTableau:
 
 1. Clone the repository:
-
    ```bash
    git clone https://github.com/marwane666/letableau.git
    ```
 
 2. Navigate to the project directory:
-
    ```bash
    cd letableau
    ```
 
-3. Install the dependencies:
-
+3. Install the required dependencies:
    ```bash
-   npm install
+   pip install -r requirements.txt
    ```
 
-4. Start the server:
-
+4. Start the Flask server:
    ```bash
-   npm start
+   python app.py
    ```
 
-5. Open your browser and visit `http://localhost:3000` to access LeTableau.
+5. Open your browser and go to `http://localhost:5000` to access the platform.
 
 ## :memo: License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-Feel free to contribute, share your feedback, or raise issues to enhance this platform further! Happy learning on LeTableau!
