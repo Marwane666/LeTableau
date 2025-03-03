@@ -9,10 +9,10 @@
 <h1 align="center">LeTableau</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/{{YOUR_GITHUB_USERNAME}}/letableau?color=56BEB8">
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/{{YOUR_GITHUB_USERNAME}}/letableau?color=56BEB8">
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/{{YOUR_GITHUB_USERNAME}}/letableau?color=56BEB8">
-  <img alt="License" src="https://img.shields.io/github/license/{{YOUR_GITHUB_USERNAME}}/letableau?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/marwane666/letableau?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/marwane666/letableau?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/marwane666/letableau?color=56BEB8">
+  <img alt="License" src="https://img.shields.io/github/license/marwane666/letableau?color=56BEB8">
 </p>
 
 <p align="center">
@@ -60,7 +60,7 @@ To get a local copy up and running follow these simple steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/{{YOUR_GITHUB_USERNAME}}/letableau.git
+   git clone https://github.com/marwane666/letableau.git
    ```
 
 2. Navigate to the project directory:
